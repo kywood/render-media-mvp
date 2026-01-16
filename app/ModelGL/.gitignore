@@ -1,0 +1,96 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# =========================
+# Packaging / Build
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# =========================
+# Test / Coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+log/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Data / Model files
+# =========================
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.pkl
+*.joblib
+
+# =========================
+# ML / AI
+# =========================
+runs/              # YOLO / TensorBoard
+wandb/
+mlruns/            # MLflow
+checkpoints/
+weights/
+*.pt
+*.onnx
+*.e*
+*.engine
+
+# =========================
+# Docker
+# =========================
+*.tar
